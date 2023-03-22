@@ -1,0 +1,153 @@
+[
+    {
+        "id": 1,
+        "name": "Croquetas para perros adultos",
+        "category": "perros",
+        "price": 2500.99,
+        "stock": 100,
+        "description": "Alimento balanceado para perros adultos de todas las razas. Contiene proteínas de alta calidad y vitaminas esenciales para una alimentación completa y saludable.",
+        "image": "/products/croqueta-perro-adulto.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Comida húmeda para gatos",
+        "category": "gatos",
+        "price": 1500.50,
+        "stock": 50,
+        "description": "Alimento húmedo de alta calidad para gatos de todas las edades. Elaborado con ingredientes naturales y sin conservantes artificiales.",
+        "image": "/products/comida-humeda-gato.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Juguete para perros masticadores",
+        "category": "perros",
+        "price": 1200.99,
+        "stock": 200,
+        "description": "Juguete resistente para perros que les gusta morder. Fabricado con materiales no tóxicos y de alta calidad.",
+        "image": "/products/juguete-masticable.webp"
+    },
+    {
+        "id": 4,
+        "name": "Arena para gatos",
+        "category": "gatos",
+        "price": 800.75,
+        "stock": 150,
+        "description": "Arena de sílice para gatos que absorbe los olores y la humedad de forma eficiente. Fácil de usar y de limpiar.",
+        "image": "/products/arena-para-gato.webp"
+    },
+    {
+        "id": 5,
+        "name": "Collar para perros",
+        "category": "perros",
+        "price": 600.99,
+        "stock": 300,
+        "description": "Collar ajustable para perros de todas las razas. Fabricado con materiales resistentes y cómodos para el animal.",
+        "image": "/products/collar-para-perro.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Rascador para gatos",
+        "category": "gatos",
+        "price": 2400.99,
+        "stock": 75,
+        "description": "Rascador de cartón para gatos que les gusta afilar sus uñas. Diseño ergonómico y resistente.",
+        "image": "/products/rascador-para-gato.jpeg"
+    },
+    {
+        "id": 7,
+        "name": "Juguete para perros peludos",
+        "category": "perros",
+        "price": 999.99,
+        "stock": 250,
+        "description": "Juguete para perros de pelo largo o denso. Ayuda a prevenir la formación de nudos y a mantener el pelaje en buen estado.",
+        "image": "/products/juguete-peludo.webp"
+    },
+    {
+        "id": 8,
+        "name": "Comida seca para gatos",
+        "category": "gatos",
+        "price": 1800.99,
+        "stock": 100,
+        "description": "Alimento seco para gatos que contiene proteínas de alta calidad y nutrientes esenciales para una dieta completa y equilibrada.",
+        "image": "/products/comida-seca-gato.jpeg"
+    },
+    {
+        "id": 9,
+        "name": "Correa para perros",
+        "category": "perros",
+        "price": 1400.50,
+        "stock": 200,
+        "description": "Correa para perros de todas las razas. Fabricada con materiales resistentes y cómodos para el dueño y el animal.",
+        "image": "/products/correa-para-perros.webp"
+    },
+    {
+        "id": 10,
+        "name": "Arena para roedores",
+        "category": "otros",
+        "price": 600.99,
+        "stock": 300,
+        "description": "Arena de sílice para roedores que ayuda a controlar los olores y a mantener la higiene en la jaula.",
+        "image": "/products/arena-para-roedores.jpeg"
+    },
+    {
+        "id": 11,
+        "name": "Juguete para gatos interactivo",
+        "category": "gatos",
+        "price": 700.99,
+        "stock": 150,
+        "description": "Juguete para gatos que estimula su instinto de caza. Incluye una varita con plumas y un ratón de juguete.",
+        "image": "/products/juguete-interactivo.jpeg"
+    },
+    {
+        "id": 12,
+        "name": "Cepillo para perros",
+        "category": "perros",
+        "price": 1000.99,
+        "stock": 250,
+        "description": "Cepillo para perros que ayuda a eliminar el pelo muerto y a mantener el pelaje en buen estado. Adecuado para perros de todas las razas y tamaños.",
+        "image": "/products/cepillo-para-perro.jpeg"
+    },
+    {
+        "id": 13,
+        "name": "Comida para peces tropicales",
+        "category": "otros",
+        "price": 500.50,
+        "stock": 500,
+        "description": "Alimento en escamas para peces tropicales que contiene una mezcla equilibrada de proteínas, vitaminas y minerales.",
+        "image": "/products/comida-para-peces.jpeg"
+    },
+    {
+        "id": 14,
+        "name": "Cama para perros",
+        "category": "perros",
+        "price": 3500.99,
+        "stock": 80,
+        "description": "Cama para perros de tamaño mediano a grande. Fabricada con materiales suaves y cómodos para el descanso de tu mascota.",
+        "image": "/products/cama-para-perros.webp"
+    },
+    {
+        "id": 15,
+        "name": "Freno para caballos",
+        "category": "otros",
+        "price": 4500.99,
+        "stock": 30,
+        "description": "Freno para caballos hecho de acero inoxidable de alta calidad y cuero resistente. Proporciona un mayor control del caballo durante el entrenamiento y la equitación.",
+        "image": "/products/freno-para-caballo.jpeg"
+    },
+    {
+        "id": 16,
+        "name": "Cepillo para caballos",
+        "category": "otros",
+        "price": 1900.99,
+        "stock": 50,
+        "description": "Cepillo para caballos con cerdas suaves y resistentes que ayudan a eliminar la suciedad y el pelo muerto del pelaje del caballo. Adecuado para caballos de todas las razas y tamaños.",
+        "image": "/products/cepillo-para-caballo.jpeg"
+    }
+]
+    
+    
+    
+    
+    
+    
+    

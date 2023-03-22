@@ -1,0 +1,50 @@
+@font-face {
+    src: url("../fonts/static/OpenSans/OpenSans-Light.ttf") format("ttf");
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+@font-face {
+    src: url(../fonts/static/OpenSans/OpenSans-Regular.ttf) format("ttf");
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+@font-face {
+    src: url("../fonts/static/OpenSans/OpenSans-Bold.ttf") format("ttf");
+    font-family: "Open Sans";
+    font-weight: 500;
+}
+
+* {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+html,
+body {
+    scroll-behavior: smooth;
+    margin: 0;
+    min-height: calc(100vh - 140px);
+}
+
+a {
+    text-decoration: none;
+    color: #1e1e1e;
+}
+  
+main {
+    min-height: calc(100vh - 140px);
+}
+
+section {
+    min-height: calc(100vh - 140px);
+    padding-top: 140px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+h2 {
+    text-align: center;
+    color: #1e1e1e;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,28 @@
+.product_detail_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+    .product_detail_image {
+        width: 60%;
+        height: 100%;
+        object-fit: contain;
+
+        img {
+            width: 80%;
+        }
+    }
+
+    .product_detail_title {
+        font-size: 2.5rem;
+        font-weight: 500;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+
+    .product_detail_price {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+}

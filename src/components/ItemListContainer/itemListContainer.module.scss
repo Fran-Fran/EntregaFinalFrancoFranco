@@ -1,0 +1,44 @@
+.item_list_card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 3rem;
+    padding: 1rem;
+    margin-bottom: 50px;
+
+    .item_card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        padding: 1rem;
+        border-radius: 10px;
+        background: #fff;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        transition: all 0.3s ease-in-out;
+        transform: scale(0.9);
+        &:hover {
+            transform: scale(1.0);
+        }
+        .item_card_image {
+            width: 50%;
+            height: 100%;
+            margin: 20px auto;
+            object-fit: contain;
+            border-radius: 10px;
+        }
+        .item_card_title {
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin: 0;
+        }
+        .item_card_price {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin: 0;
+        }
+    }
+}
