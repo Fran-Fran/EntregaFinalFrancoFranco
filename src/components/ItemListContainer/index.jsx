@@ -1,6 +1,6 @@
 import styles from './itemListContainer.module.scss';
 import React, { useEffect, useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, Navigate } from 'react-router-dom';
 
 const ItemListContainer = () => {
     const [products, setProducts] = useState([]);

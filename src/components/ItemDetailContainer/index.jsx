@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { Navigate, useParams } from "react-router-dom";
 import styles from "./ItemDetailContainer.module.scss";
 
 const ItemDetailContainer = () => {
@@ -11,6 +11,10 @@ const ItemDetailContainer = () => {
             .then(response => response.json())
             .then(data => setProduct(data.find(product => product.id == id)));
     }, [id]);
+
+    if(!product) {
+      return <Navigate to="/404" />  
+    } 
 
     console.log(product);
     return (
