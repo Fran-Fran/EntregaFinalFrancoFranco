@@ -3,3 +3,15 @@
     display: block;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 768px) {
+    .error_container {
+        height: 90vh;
+        display: flex;
+        align-items: center;
+    }
+
+    .error_image {
+        width: 100%;
+    }
+}

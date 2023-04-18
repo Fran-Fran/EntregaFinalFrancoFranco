@@ -48,3 +48,13 @@ h2 {
     color: #1e1e1e;
     margin-bottom: 20px;
 }
+
+input.error {
+    border: 1px solid red!important;
+}
+
+@media (max-width: 768px) {
+    section {
+        padding-top: 0;
+    }
+}

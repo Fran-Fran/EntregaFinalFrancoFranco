@@ -1,16 +1,29 @@
-import icon from '/shopping-cart.png'
 import styles from './cartWidget.module.scss'
-import { useState } from 'react'
+import { useState, React, useEffect, useContext } from 'react'
+import { NavLink } from 'react-router-dom'
+import { CartContext } from '../../contexts/CartContext'
+import { HiOutlineShoppingCart } from 'react-icons/hi'
 
 const CartWidget = () => {
+    const { cart } = useContext(CartContext)
     const [count, setCount] = useState(0)
+
+    useEffect(() => {
+        let counter = 0
+        if(cart.length === 0) setCount(0)
+        cart.map((product) => {
+            counter += product.quantity
+            setCount(counter)
+        })
+    }, [count, cart])
+
     return (
-        <div onClick={() => setCount((count) => count < 99 ? count + 1 : count = 0)} className={styles.cart_widget}>
+        <NavLink to='/cart' className={styles.cart_widget}>
             <div className={styles.cart_container}>
-                <img className={styles.cart_icon} src={icon} alt="" />
+                <HiOutlineShoppingCart className={styles.cart_icon} />
                 <span className={styles.cart_counter}>{count}</span>
             </div>
-        </div>
+        </NavLink>
     )
 }
 

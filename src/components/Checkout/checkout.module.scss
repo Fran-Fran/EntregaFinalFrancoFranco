@@ -1,0 +1,22 @@
+.checkout_form {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 764px;
+
+    label {
+        display: block;
+        height: 100%;
+    }
+
+    input {
+        width: 100%;
+        height: 40px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

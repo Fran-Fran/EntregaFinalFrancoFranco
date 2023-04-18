@@ -1,8 +1,7 @@
 .section_home {
-    background-image: url("../../dogs.jpeg");
+    background-image: url("/dogs.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -30,4 +29,20 @@
 
 .section_products > section {
     padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .section_home {
+        flex-direction: row;
+        align-items: flex-start;
+        padding-top: 80px;
+
+        & > div {
+            margin-top: 50px;
+        }
+    }
+
+    .section_products {
+        padding-top: 80px;
+    }
 }
